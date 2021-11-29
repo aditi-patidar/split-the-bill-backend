@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Group {
 	
-private int groupId;
+	private int groupId;
 	
 	private String name;
 	
@@ -45,14 +45,14 @@ private int groupId;
 	}
 
 	public String getGroupType() {
-		return groupType;
+		return groupTypeID;
 	}
 
 	public void setGroupType(String groupType) {
-		this.groupType = groupType;
+		this.groupTypeID = groupType;
 	}
 
-	private String groupType;
+	private String groupTypeID;
 
 	
 }
