@@ -2,30 +2,28 @@ package com.app.sharebucks.model;
 
 public class User {
 
-	private int userID;
+	private int userId;
 	
-	private String email;
+	private String emailId;
 	
 	private String password;
 	
-	private String phoneNumber;
-	
 	private String fullName;
 
-	public int getUserID() {
-		return userID;
+	public int getUserId() {
+		return userId;
 	}
 
-	public void setUserID(int userID) {
-		this.userID = userID;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getEmailId() {
+		return emailId;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
 	}
 
 	public String getPassword() {
@@ -36,14 +34,6 @@ public class User {
 		this.password = password;
 	}
 
-	public String getPhoneNumber() {
-		return phoneNumber;
-	}
-
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
-	}
-
 	public String getFullName() {
 		return fullName;
 	}
@@ -51,6 +41,7 @@ public class User {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
+
 	
 	
 

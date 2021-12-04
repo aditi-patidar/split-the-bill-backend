@@ -13,7 +13,7 @@ import com.app.sharebucks.model.Group;
 import com.app.sharebucks.services.GroupService;
 
 @RestController
-public class groupController {
+public class GroupController {
 	
 	@Autowired
 	GroupService groupService;
